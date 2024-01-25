@@ -1,0 +1,136 @@
+@font-face {
+  font-family: lexend;
+  src: url(Lexend/Lexend-VariableFont_wght.ttf);
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'lexend';
+}
+html body {
+  height: 100%;
+  width: 100%;
+}
+
+.home{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 240, 240);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  
+}
+
+/* navbar start */
+.nav{
+  width: 90%;
+  height: 8%;
+  background-color: #ffffff;
+  border-radius: 30px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2vw;
+}
+.nav-btn{
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-btn button {
+  border: none;
+  background: none;
+  font-family: 'lexend';
+  font-size: 1.1vw;
+  font-weight: 500;
+}
+
+.nav-btn button:hover{
+  border-bottom: 1px solid black;
+  transform: scale(1.1);
+  transition: 100ms;
+}
+.log{
+  font-family: 'lexend';
+}
+
+/* navbar end */
+
+
+/* home content section  */
+
+.home-content{
+  width: 90%;
+  height: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+
+}
+
+.content-section1{
+  height: 95%;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: blueviolet; */
+}
+.content-section2{
+  height: 95%;
+  width: 36%;
+  background-color: blueviolet;
+}
+.content-section3{
+  height: 95%;
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: blueviolet;
+}
+
+.catalogue{
+  width: 90%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* background-color: blue; */
+}
+.catalogue p {
+  line-height: 1.7vw;
+  font-size: 1.2vw;
+}
+
+.catalogue button{
+  padding: 1vw 2vw;
+  font-size: 1vw;
+  border: none;
+  border-radius: 30px;
+  background-color: #5d2b08;
+  color: white;
+}
+
+.side-play{
+  width: 15vw ;
+  height: 15vw;
+  border: 3px solid #5d2b08 ;
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 110px;
+  background: red;
+}
+
+.section3-img{
+  width: 40%;
+  height: 30%;
+  background-color: blue;
+}
