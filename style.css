@@ -146,7 +146,6 @@ html body {
   height: 30%;
 }
 .play-img{
-  /* width: 100%; */
   height: 40%;
   display: flex;
   justify-content: center;
@@ -225,11 +224,6 @@ html body {
 
 }
 
-.page2{
-  width: 100%;
-  height: 100vh;
-}
-
 
 .section1-image{
   width: 30%;
@@ -243,3 +237,79 @@ html body {
   width: 100%;
   mix-blend-mode: multiply;
 }
+
+
+.page2{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #ffffff ;
+}
+.page2-section1{
+  width: 50%;
+  height: 100%;
+  /* background-color: red; */
+}
+
+
+
+
+.page2-section2{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.section2-content{
+  height: 70%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  color: #46210d;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.section2-content h1{ 
+  font-size: 2.5rem;
+}
+.page2-btn button{
+  padding: 1vw 2vw;
+  border-radius: 30px;
+  border: none;
+  background-color: #46210d;
+  color: white;
+}
+
+.page2-section1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page2-section1-bg{
+position: relative;
+width: 600px;
+height: 600px;
+border: 2px solid rgb(0, 0, 0);
+border-radius: 50%;
+}
+
+.page2-section1-bg .page2-icon{
+
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+
+
