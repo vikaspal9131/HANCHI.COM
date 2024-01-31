@@ -313,3 +313,11 @@ border-radius: 50%;
 
 
 
+/* page3 start */
+
+
+.page3{
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+}
