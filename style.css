@@ -299,7 +299,7 @@ border: 2px solid rgb(0, 0, 0);
 border-radius: 50%;
 }
 
-.page2-section1-bg .page2-icon{
+/* .page2-section1-bg .page2-icon{
 
   position: relative;
   width: 100%;
@@ -309,7 +309,7 @@ border-radius: 50%;
   align-items: center;
   cursor: pointer;
 
-}
+} */
 
 
 
@@ -320,4 +320,15 @@ border-radius: 50%;
   width: 100%;
   height: 100vh;
   background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page3-heading{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
