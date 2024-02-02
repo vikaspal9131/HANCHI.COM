@@ -8,6 +8,23 @@
   src: url(Fjalla_One/FjallaOne-Regular.ttf);
 }
 
+
+@keyframes rotate {
+
+  0%{
+    transform: rotate(180deg);
+  }
+  
+  50%{
+    transform: rotate(0eg);
+  }
+
+  100%{
+    transform: rotate(360deg);
+  }
+  
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -62,7 +79,7 @@ html body {
 }
 .log h1{
   font-family: 'nox';
-  font-size: 4vw;
+  font-size: 3rem;
 }
 
 /* navbar end */
@@ -119,6 +136,12 @@ html body {
   color: white;
 }
 
+.catalogue button:hover{
+  background-color: white;
+  color: #46210d;
+  transition: 400ms;
+}
+
 .side-play{
   width: 12vw ;
   height: 14vw;
@@ -149,6 +172,7 @@ html body {
   height: 40%;
   display: flex;
   justify-content: center;
+  animation: rotate  15s infinite;
 }
 
 .play-img img{
@@ -175,14 +199,25 @@ html body {
   font-size: 5vw;
 }
 
+.play-btn button:hover{
+  transform: scale(1.2);
+  transition: 400ms;
+}
+
 .section3-img{
-  width: 90%;
+  width:90%;
   height: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: blue; */
+
 }
+
+.section3-img img{
+  width: 90%;
+
+}
+
 .content-section2{
   height: 95%;
   width: 36%;
@@ -192,16 +227,16 @@ html body {
 .section2-img{
   width: 100%;
   height: 80%;
-  background-color: #f4f0ed;
-  /* transform: rotate(9deg); */
-  
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section2-img img{
   border-radius: 20px;
-  width: 100%;
-  mix-blend-mode: multiply;
+  width: 150%;
+
+
  
 }
 
@@ -227,21 +262,21 @@ html body {
 
 .section1-image{
   width: 30%;
-  height: 10vh;
-  margin-top: 40vh;
+  /* height: 1vh; */
+  margin-top: 30vh;
   position: absolute;
   
 }
 
 .section1-image img{
-  width: 100%;
-  mix-blend-mode: multiply;
+  width: 90%;
+  transform: rotate(9deg);
 }
 
 
 .page2{
   width: 100%;
-  height: 100vh;
+  height: 85vh;
   display: flex;
   background-color: #ffffff ;
 }
@@ -258,32 +293,64 @@ html body {
   width: 50%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
 
 }
 
 
 .section2-content{
-  height: 70%;
+  height: 60%;
   width: 80%;
   display: flex;
   flex-direction: column;
   color: #46210d;
   flex-direction: column;
   justify-content: space-around;
+  /* align-items: center; */
+  /* background-color: red;   */
 }
+
 
 .section2-content h1{ 
   font-size: 2.5rem;
 }
+.page2-btn{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
 .page2-btn button{
   padding: 1vw 2vw;
   border-radius: 30px;
-  border: none;
+  border: 1px solid #46210d;
+  
   background-color: #46210d;
   color: white;
 }
+
+.page2-btn button:hover{
+  background-color: white;
+  color: #46210d;
+  
+  transition: 300ms;
+}
+
+
+/* .page2-section2-img{
+  position: absolute;
+  width: 20%;
+  height: 30%;
+  margin-left: 25vw;
+  margin-bottom: 25vw;
+} */
+.page2-section2-img img {
+  width: 100%;
+}
+
+
 
 .page2-section1{
   display: flex;
@@ -293,8 +360,8 @@ html body {
 
 .page2-section1-bg{
 position: relative;
-width: 600px;
-height: 600px;
+width: 300px;
+height: 300px;
 border: 2px solid rgb(0, 0, 0);
 border-radius: 50%;
 }
