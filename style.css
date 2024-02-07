@@ -424,7 +424,7 @@ border-radius: 50%;
 .page3-containt{
   width: 100%;
   height: 60vh;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -434,14 +434,16 @@ border-radius: 50%;
 .page3-card {
   height: 90%;
   width: 24%;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .card-content{
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
  .card-img{
@@ -449,3 +451,69 @@ border-radius: 50%;
   height: 80%;
   background-color: black;
  }
+
+ .card-detail{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+ }
+
+.buy-icon{
+  width: 3vw;
+  height: 3vw;
+  font-size: 1.3vw;
+  color: #46210d;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.buy-icon:hover{
+  background-color: #46210d;
+  color: #ffffff;
+  transform: scale(1.1);
+  transition: 400ms;
+}
+ 
+.page4{
+  width: 100%;
+  height: 80vh;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+
+.page4-heading{
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+}
+
+.page4-heading h1{
+  font-size: 11vw;
+  color: #46210d;
+  font-family: nox;
+}
+
+.page4-card{
+  width: 95%;
+  height: 49vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: blue;
+}
+
+.page4-card1{
+  width: 25%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+}
