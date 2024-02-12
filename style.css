@@ -532,4 +532,16 @@ footer{
   width: 100%;
   height: 40vh;
   background-color: #f4f0ed;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box{
+  width: 20%;
+  height: 90%;
+  background-color:red;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
 }
