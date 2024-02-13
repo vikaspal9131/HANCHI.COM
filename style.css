@@ -539,7 +539,7 @@ footer{
 .box{
   width: 20%;
   height: 90%;
-  background-color:red;
+  /* background-color:red; */
   display: flex;
   flex-direction: column;
 
